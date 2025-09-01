@@ -1,0 +1,4 @@
+echo "Start Pre-commit Hooks"
+pnpm format
+git update-index --again
+pnpm lint
