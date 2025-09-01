@@ -2,6 +2,14 @@
 
 Run the following command:
 
+## Add ShadcnUI
+
+```
+pnpm dlx shadcn@latest add -c apps/template
+```
+
+## Generate new apps
+
 ```sh
 pnpm exec turbo gen workspace --copy
 
